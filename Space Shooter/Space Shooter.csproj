@@ -75,6 +75,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\TutorialInfo.cs" />
     <Compile Include="Assets\_Completed-Assets\Scripts\Done_BGScroller.cs" />
     <Compile Include="Assets\_Completed-Assets\Scripts\Done_DestroyByBoundary.cs" />
