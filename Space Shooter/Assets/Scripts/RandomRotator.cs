@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Mover : MonoBehaviour {
+public class RandomRotator : MonoBehaviour {
 
-	public float speed;
+	public float tumble;
 	Rigidbody rb;
 
 	void Awake () {
 		rb = GetComponent<Rigidbody>();
-		rb.velocity = transform.forward * speed;
+		rb.angularVelocity = Random.insideUnitSphere * tumble;
 	}
 
 }
