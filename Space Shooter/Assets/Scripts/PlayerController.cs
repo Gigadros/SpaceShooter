@@ -14,17 +14,28 @@ public class PlayerController : MonoBehaviour {
 	public Boundary boundary;
 	public GameObject shot;
 	public Transform shotSpawn;
+	float volMin, volMax, pitchMin, pitchMax;
+	AudioSource audioSource;
 	Rigidbody rb;
 	float nextFire;
 
 	void Awake () {
 		rb = GetComponent<Rigidbody>();
+		audioSource = GetComponent<AudioSource>();
+		volMin = 0.35f;
+		volMax = 0.5f;
+		pitchMin = 0.9f;
+		pitchMax = 1.0f;
 	}
 
 	void Update () {
 		if(Input.GetButton("Fire1") && Time.time > nextFire){
 			nextFire = Time.time + fireRate;
 			Instantiate(shot, shotSpawn.position, shotSpawn.rotation);
+
+			audioSource.pitch = Random.Range(pitchMin, pitchMax);
+			float vol = Random.Range(volMin, volMax);
+			audioSource.PlayOneShot (audioSource.clip, vol);
 		}
 	}
 
