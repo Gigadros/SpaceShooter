@@ -1,35 +1,71 @@
 Initialize engine version: 5.5.2f1 (3829d7f588f3)
 GfxDevice: creating device client; threaded=1
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) HD Graphics Family (ID=0xa16)
-    Vendor:   Intel
-    VRAM:     1136 MB
-    Driver:   20.19.15.4549
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: AMD Radeon HD 8650G (ID=0x990b)
+    Vendor:   ATI
+    VRAM:     736 MB
+    Driver:   15.200.1062.1004
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\GitLab\SpaceShooter\Space Shooter\Builds\Standalone\Space Shooter_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\GitLab\SpaceShooter\Space Shooter\Builds\Standalone\Space Shooter_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\GitLab\SpaceShooter\Space Shooter\Builds\Standalone\Space Shooter_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\GitLab\SpaceShooter\Space Shooter\Builds\Standalone\Space Shooter_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\GitLab\SpaceShooter\Space Shooter\Builds\Standalone\Space Shooter_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\GitLab\SpaceShooter\Space Shooter\Builds\Standalone\Space Shooter_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: C:\GitLab\SpaceShooter\Space Shooter\Builds\Standalone\Space Shooter_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\GitLab\SpaceShooter\Space Shooter\Builds\Standalone\Space Shooter_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: C:\GitLab\SpaceShooter\Space Shooter\Builds\Standalone\Space Shooter_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
-Loading C:\GitLab\SpaceShooter\Space Shooter\Builds\Standalone\Space Shooter_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
-- Completed reload, in  0.172 seconds
-Platform assembly: C:\GitLab\SpaceShooter\Space Shooter\Builds\Standalone\Space Shooter_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: C:\GitLab\SpaceShooter\Space Shooter\Builds\Standalone\Space Shooter_Data\Managed\System.dll (this message is harmless)
-desktop: 1366x768 60Hz; virtual: 2732x768 at -1366,0
+Platform assembly: C:\Users\Gigadros\Documents\GitHub\SpaceShooter\Space Shooter\Builds\Standalone\Space Shooter_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Gigadros\Documents\GitHub\SpaceShooter\Space Shooter\Builds\Standalone\Space Shooter_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Gigadros\Documents\GitHub\SpaceShooter\Space Shooter\Builds\Standalone\Space Shooter_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Gigadros\Documents\GitHub\SpaceShooter\Space Shooter\Builds\Standalone\Space Shooter_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Gigadros\Documents\GitHub\SpaceShooter\Space Shooter\Builds\Standalone\Space Shooter_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Gigadros\Documents\GitHub\SpaceShooter\Space Shooter\Builds\Standalone\Space Shooter_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Gigadros\Documents\GitHub\SpaceShooter\Space Shooter\Builds\Standalone\Space Shooter_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Gigadros\Documents\GitHub\SpaceShooter\Space Shooter\Builds\Standalone\Space Shooter_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Gigadros\Documents\GitHub\SpaceShooter\Space Shooter\Builds\Standalone\Space Shooter_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\Gigadros\Documents\GitHub\SpaceShooter\Space Shooter\Builds\Standalone\Space Shooter_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.090 seconds
+Platform assembly: C:\Users\Gigadros\Documents\GitHub\SpaceShooter\Space Shooter\Builds\Standalone\Space Shooter_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Gigadros\Documents\GitHub\SpaceShooter\Space Shooter\Builds\Standalone\Space Shooter_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.667850 ms
+UnloadTime: 4.188444 ms
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 2354 -> priority: 1 
+  Thread -> id: 1b48 -> priority: 1 
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.337123 ms
+UnloadTime: 0.493651 ms
 
 Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 404.
-Total: 0.261724 ms (FindLiveObjects: 0.037896 ms CreateObjectMapping: 0.028027 ms MarkObjects: 0.189878 ms  DeleteObjects: 0.005526 ms)
+Total: 0.459592 ms (FindLiveObjects: 0.061552 ms CreateObjectMapping: 0.034469 ms MarkObjects: 0.350849 ms  DeleteObjects: 0.011489 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.487906 ms
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 404.
+Total: 0.432509 ms (FindLiveObjects: 0.068118 ms CreateObjectMapping: 0.026672 ms MarkObjects: 0.327459 ms  DeleteObjects: 0.008617 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.451385 ms
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 404.
+Total: 0.530993 ms (FindLiveObjects: 0.070990 ms CreateObjectMapping: 0.031596 ms MarkObjects: 0.418146 ms  DeleteObjects: 0.008207 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.457540 ms
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 404.
+Total: 0.441126 ms (FindLiveObjects: 0.069349 ms CreateObjectMapping: 0.028724 ms MarkObjects: 0.328690 ms  DeleteObjects: 0.011900 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.442767 ms
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 404.
+Total: 0.438664 ms (FindLiveObjects: 0.050883 ms CreateObjectMapping: 0.029955 ms MarkObjects: 0.343463 ms  DeleteObjects: 0.012310 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.919594 ms
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 404.
+Total: 0.473954 ms (FindLiveObjects: 0.071811 ms CreateObjectMapping: 0.038572 ms MarkObjects: 0.350028 ms  DeleteObjects: 0.011900 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.512937 ms
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 404.
+Total: 0.445229 ms (FindLiveObjects: 0.064014 ms CreateObjectMapping: 0.028314 ms MarkObjects: 0.341821 ms  DeleteObjects: 0.009027 ms)
 
